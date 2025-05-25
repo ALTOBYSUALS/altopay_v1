@@ -1,9 +1,9 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sat May 24 2025 22:58:59 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html>
 <html data-wf-page="682ba4c57e1a36420938e546" data-wf-site="682ba4c57e1a36420938e4f5">
 <head>
   <meta charset="utf-8">
-  <title>AltoPay - Advanced Digital Banking Platform</title>
-  <meta content="Experience next-generation fintech with AltoPay. Advanced trading, crypto support, and enterprise-grade security for modern digital banking." name="description">
+  <title>AltoPay - Plataforma de Trading Avanzada</title>
+  <meta content="Experimentá la próxima generación de fintech con AltoPay. Trading avanzado, soporte crypto y seguridad empresarial para la banca digital moderna." name="description">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -11,8 +11,16 @@
   <link href="css/altopay.webflow.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <!-- Forzar carga de fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Inter:100,200,300,400,500,600,700,800,900","JetBrains+Mono:100,200,300,400,500,600,700,800"]  }});</script>
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["JetBrains Mono:300,400,500,600,700,800", "Inter:300,400,500,600,700,800,900"]
+      }
+    });
+  </script>
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
@@ -26,196 +34,138 @@
         <h2 class="brand-name">AltoPay_</h2>
       </div>
       <div class="nav-menu">
-        <a href="#features" class="nav-link">Features</a>
-        <a href="#services" class="nav-link">Services</a>
-        <a href="#security" class="nav-link">Security</a>
-        <a href="#contact" class="nav-link">API</a>
-        <button class="cta-button">Launch App</button>
+        <a href="#plataforma" class="nav-link">Plataforma</a>
+        <a href="#seguridad" class="nav-link">Seguridad</a>
+        <a href="#api" class="nav-link">API</a>
+        <button class="cta-button">Empezar a Operar</button>
       </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
   <section id="hero" class="hero">
-    <div class="trading-preview"></div>
-    <div class="hero-content">
-      <h1 class="hero-title">Next-Gen Banking Protocol</h1>
-      <p class="hero-subtitle">Advanced financial infrastructure powered by cutting-edge technology. Trade, invest, and manage digital assets with institutional-grade security and lightning-fast execution.</p>
-      <div class="hero-actions">
-        <button class="primary-button">Start Trading</button>
-        <button class="secondary-button">View Documentation</button>
-      </div>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-number mono">1.2M+</span>
-          <span class="stat-label">Active Traders</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number mono">$8.4B</span>
-          <span class="stat-label">Volume 24h</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number mono">0.01ms</span>
-          <span class="stat-label">Latency</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number mono">99.99%</span>
-          <span class="stat-label">Uptime</span>
-        </div>
+    <div class="hero-content-minimal">
+      <div class="hero-actions-minimal">
+        <button class="primary-button-minimal">Start</button>
+        <button class="secondary-button-minimal">Docs</button>
       </div>
     </div>
   </section>
 
-  <!-- Features Section -->
-  <section id="features" class="features">
+  <!-- Plataforma Section -->
+  <section id="plataforma" class="plataforma">
     <div class="container">
-      <h2 class="section-title">Advanced Trading Infrastructure</h2>
-      <div class="features-grid">
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-bolt"></i>
+      <div class="plataforma-content">
+        <div class="plataforma-text">
+          <h2 class="section-title-large">La Plataforma de Trading más Avanzada de Latinoamérica</h2>
+          <p class="plataforma-description">Diseñada para traders profesionales e instituciones que buscan la máxima performance y seguridad en sus operaciones financieras.</p>
+          
+          <div class="features-simple">
+            <div class="feature-simple">
+              <div class="feature-icon-simple">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <div class="feature-text">
+                <h3 class="mono">Ejecución Ultra-Rápida</h3>
+                <p>Latencia sub-milisegundo con nuestro motor de matching personalizado y acceso directo al mercado.</p>
+              </div>
+            </div>
+            
+            <div class="feature-simple">
+              <div class="feature-icon-simple">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="feature-text">
+                <h3 class="mono">Seguridad Militar</h3>
+                <p>Wallets multi-firma, módulos de seguridad de hardware y autenticación de conocimiento cero.</p>
+              </div>
+            </div>
+            
+            <div class="feature-simple">
+              <div class="feature-icon-simple">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="feature-text">
+                <h3 class="mono">Analytics Avanzados</h3>
+                <p>Datos de mercado en tiempo real, herramientas de trading algorítmico y analíticas de portfolio.</p>
+              </div>
+            </div>
+            
+            <div class="feature-simple">
+              <div class="feature-icon-simple">
+                <i class="fas fa-coins"></i>
+              </div>
+              <div class="feature-text">
+                <h3 class="mono">Multi-Activos</h3>
+                <p>Operá crypto, forex, commodities y activos tokenizados desde una sola plataforma.</p>
+              </div>
+            </div>
           </div>
-          <h3 class="mono">Ultra-Low Latency</h3>
-          <p>Sub-millisecond execution with our custom matching engine and direct market access protocols.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-shield-alt"></i>
+          
+          <div class="platform-cta">
+            <button class="primary-button large">Acceder a la Plataforma</button>
+            <button class="secondary-button large">Documentación API</button>
           </div>
-          <h3 class="mono">Military-Grade Security</h3>
-          <p>Multi-signature wallets, hardware security modules, and zero-knowledge proof authentication.</p>
         </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-chart-line"></i>
-          </div>
-          <h3 class="mono">Advanced Analytics</h3>
-          <p>Real-time market data, algorithmic trading tools, and comprehensive portfolio analytics.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-code"></i>
-          </div>
-          <h3 class="mono">API-First Design</h3>
-          <p>RESTful and WebSocket APIs for seamless integration with trading bots and third-party tools.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-coins"></i>
-          </div>
-          <h3 class="mono">Multi-Asset Support</h3>
-          <p>Trade crypto, forex, commodities, and tokenized assets all from a single platform.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-network-wired"></i>
-          </div>
-          <h3 class="mono">DeFi Integration</h3>
-          <p>Access liquidity pools, yield farming, and cross-chain protocols with one-click execution.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services" class="services">
-    <div class="container">
-      <h2 class="section-title">Trading Services</h2>
-      <div class="services-grid">
-        <div class="service-item">
-          <h3 class="mono">Spot Trading</h3>
-          <p>Trade over 500+ cryptocurrency pairs with deep liquidity and competitive fees starting at 0.1%.</p>
-        </div>
-        <div class="service-item">
-          <h3 class="mono">Futures & Derivatives</h3>
-          <p>Leverage up to 100x with perpetual swaps, options, and structured products for advanced strategies.</p>
-        </div>
-        <div class="service-item">
-          <h3 class="mono">Algorithmic Trading</h3>
-          <p>Deploy custom strategies with our backtesting engine and automated execution infrastructure.</p>
-        </div>
-        <div class="service-item">
-          <h3 class="mono">Institutional Services</h3>
-          <p>Prime brokerage, OTC desk, and custody solutions for hedge funds and institutional investors.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Security Section -->
-  <section id="security" class="security">
-    <div class="container">
-      <div class="security-content">
-        <div class="security-text">
-          <h2 class="mono">Enterprise Security Standards</h2>
-          <p>Built with bank-level security protocols and continuously audited by leading cybersecurity firms to ensure your assets remain protected.</p>
-          <ul class="security-features">
-            <li><i class="fas fa-check"></i> <span class="mono">AES-256 Encryption</span></li>
-            <li><i class="fas fa-check"></i> <span class="mono">Multi-Signature Wallets</span></li>
-            <li><i class="fas fa-check"></i> <span class="mono">Cold Storage (95%)</span></li>
-            <li><i class="fas fa-check"></i> <span class="mono">SOC 2 Type II Compliant</span></li>
-            <li><i class="fas fa-check"></i> <span class="mono">Insurance Coverage</span></li>
-          </ul>
-        </div>
-        <div class="security-visual">
-          <div class="security-badge">
-            <i class="fas fa-lock"></i>
-            <span class="mono">ISO 27001</span>
+        
+        <div class="plataforma-visual">
+          <div class="dashboard-mockup">
+            <div class="dashboard-header">
+              <div class="dashboard-logo">AltoPay_</div>
+              <div class="dashboard-status">
+                <span class="status-dot"></span>
+                <span class="mono">En Vivo</span>
+              </div>
+            </div>
+            <div class="dashboard-content">
+              <div class="trading-pair">
+                <span class="mono">BTC/USDT</span>
+                <span class="price-green mono">$68,240.50</span>
+                <span class="change-green mono">+2.34%</span>
+              </div>
+              <div class="trading-pair">
+                <span class="mono">ETH/USDT</span>
+                <span class="price-green mono">$3,845.75</span>
+                <span class="change-green mono">+1.87%</span>
+              </div>
+              <div class="trading-pair">
+                <span class="mono">ADA/USDT</span>
+                <span class="price-red mono">$0.4521</span>
+                <span class="change-red mono">-0.45%</span>
+              </div>
+            </div>
+            <div class="dashboard-chart">
+              <div class="chart-line"></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section class="cta-section">
-    <div class="container">
-      <h2 class="mono">Ready to Trade at Institutional Level?</h2>
-      <p>Join professional traders and institutions already using AltoPay's advanced infrastructure.</p>
-      <button class="primary-button">Launch Trading Terminal</button>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer-minimal">
     <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
+      <div class="footer-minimal-content">
+        <div class="footer-brand-minimal">
           <h3 class="mono">AltoPay_</h3>
-          <p class="mono">Advanced trading infrastructure</p>
+          <p class="mono">Infraestructura de trading avanzada</p>
         </div>
-        <div class="footer-links">
-          <div class="link-group">
-            <h4 class="mono">Trading</h4>
-            <a href="#" class="mono">Spot Markets</a>
-            <a href="#" class="mono">Futures</a>
-            <a href="#" class="mono">Options</a>
-            <a href="#" class="mono">DeFi Pools</a>
-          </div>
-          <div class="link-group">
-            <h4 class="mono">Platform</h4>
-            <a href="#" class="mono">API Docs</a>
-            <a href="#" class="mono">Fees</a>
-            <a href="#" class="mono">Status</a>
-            <a href="#" class="mono">Security</a>
-          </div>
-          <div class="link-group">
-            <h4 class="mono">Support</h4>
-            <a href="#" class="mono">Help Center</a>
-            <a href="#" class="mono">Live Chat</a>
-            <a href="#" class="mono">Institutional</a>
-            <a href="#" class="mono">Careers</a>
-          </div>
+        <div class="footer-links-minimal">
+          <a href="#" class="mono">Trading</a>
+          <a href="#" class="mono">API</a>
+          <a href="#" class="mono">Seguridad</a>
+          <a href="#" class="mono">Soporte</a>
         </div>
-      </div>
-      <div class="footer-bottom">
-        <p class="mono">&copy; 2024 AltoPay. All rights reserved. Licensed in multiple jurisdictions.</p>
-        <div class="social-links">
+        <div class="social-links-minimal">
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-telegram"></i></a>
           <a href="#"><i class="fab fa-discord"></i></a>
           <a href="#"><i class="fab fa-github"></i></a>
         </div>
+      </div>
+      <div class="footer-bottom-minimal">
+        <p class="mono">&copy; 2024 AltoPay. Todos los derechos reservados. Buenos Aires, Argentina.</p>
       </div>
     </div>
   </footer>
@@ -225,22 +175,27 @@
   <script src="https://uploads-ssl.webflow.com/5d96602cd4a41e21159565aa/5d966387d4a41e18e4959091_three.r92.min.txt"></script>
   <script src="https://uploads-ssl.webflow.com/5d96602cd4a41e21159565aa/5d966387a9d588b02618fd9a_vanta.birds.min.txt"></script>
   <script>
+// Forzar carga de fuentes
+document.fonts.ready.then(function() {
+    console.log('Fuentes cargadas correctamente');
+});
+
 // Initialize Vanta background effect
 VANTA.BIRDS({
   el: "#hero",
   backgroundColor: 0x0d0d0d,
   color1: 0x00d4aa,
   color2: 0x00fff2,
-  birdSize: 0.40,
-  wingSpan: 20.00,
-  speedLimit: 2.00,
-  separation: 15.00,
-  alignment: 12.00,
-  cohesion: 15.00,
-  backgroundAlpha: 0.98
+  birdSize: 0.30,
+  wingSpan: 18.00,
+  speedLimit: 1.50,
+  separation: 20.00,
+  alignment: 15.00,
+  cohesion: 18.00,
+  backgroundAlpha: 0.99
 });
 
-// Smooth scrolling for navigation links
+// Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -268,55 +223,28 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Animate stats on scroll
-const observerOptions = {
-    threshold: 0.5,
-    rootMargin: '0px 0px -100px 0px'
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.style.transform = 'translateY(0)';
-            entry.target.style.opacity = '1';
+// Simular datos en tiempo real en el dashboard
+function updateDashboard() {
+    const prices = document.querySelectorAll('.price-green, .price-red');
+    prices.forEach(price => {
+        if (Math.random() > 0.7) {
+            price.style.animation = 'flash 0.3s ease';
+            setTimeout(() => {
+                price.style.animation = '';
+            }, 300);
         }
     });
-}, observerOptions);
-
-document.querySelectorAll('.stat').forEach(stat => {
-    stat.style.transform = 'translateY(30px)';
-    stat.style.opacity = '0';
-    stat.style.transition = 'all 0.6s ease';
-    observer.observe(stat);
-});
-
-// Real-time price ticker simulation
-function updateTicker() {
-    const priceElement = document.querySelector('.trading-preview::after');
-    // This would normally connect to a real API
-    // For demo purposes, we'll just add a subtle animation
 }
 
-// Add typing effect to hero title
-function typeWriter(element, text, speed = 50) {
-    let i = 0;
-    element.innerHTML = '';
-    function type() {
-        if (i < text.length) {
-            element.innerHTML += text.charAt(i);
-            i++;
-            setTimeout(type, speed);
-        }
-    }
-    type();
-}
-
-// Initialize typing effect when page loads
-window.addEventListener('load', function() {
-    const title = document.querySelector('.hero-title');
-    const originalText = title.textContent;
-    typeWriter(title, originalText, 100);
-});
+setInterval(updateDashboard, 2000);
 </script>
+
+<style>
+@keyframes flash {
+    0% { background: rgba(0, 212, 170, 0.2); }
+    50% { background: rgba(0, 212, 170, 0.4); }
+    100% { background: transparent; }
+}
+</style>
 </body>
 </html>
